@@ -4,7 +4,7 @@ import userImg from "./assests/img/user.jpeg";
 import profileImg from "./assests/img/profile.jpeg";
 function App() {
   return (
-    <>
+    <div>
       <input id="darkMode" type="checkbox" className="dark-mode-check" />
       <div className="wrapper">
         <label htmlFor="darkMode">
@@ -256,7 +256,7 @@ function App() {
           <p>&COPY; Copywright: Made by Me</p>
         </footer>
       </div>
-    </>
+    </div>
   );
 }
 
